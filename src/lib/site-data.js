@@ -51,7 +51,7 @@ const COURSES = [
     description: "Comprehensive CAT preparation for top IIMs with concept-first teaching and mock analytics.",
     duration: "12 Months",
     mode: "Offline",
-    features: ["500+ hrs live classes", "40+ full mocks", "Personal mentorship"],
+    features: ["Recorded lectures", "40+ full mocks", "Personal mentorship"],
     featured: true
   },
   {
@@ -70,7 +70,7 @@ const COURSES = [
     category: "UG",
     icon: BookOpen,
     description: "Integrated Programme in Management coaching for IIM Indore & Rohtak after Class 12.",
-    duration: "8 Months",
+    duration: "2 years / 1 year",
     mode: "Offline",
     features: ["Quant + Verbal focus", "PI & WAT prep", "Foundation building"]
   },
@@ -129,10 +129,10 @@ const COURSES = [
 
 const STATS = [
   { value: 5000, suffix: "+", label: "Students Trained" },
-  { value: 120, suffix: "+", label: "CAT 99%ilers" },
-  { value: 850, suffix: "+", label: "MBA Converts" },
-  { value: 12, suffix: "+", label: "Years of Experience" },
-  { value: 96, suffix: "%", label: "Placement Success" }
+  // { value: 120, suffix: "+", label: "CAT 99%ilers" },
+  // { value: 850, suffix: "+", label: "MBA Converts" },
+  { value: 18, suffix: "+", label: "Years of Experience" },
+  // { value: 96, suffix: "%", label: "Placement Success" }
 ];
 
 const FACULTY = [
@@ -140,17 +140,17 @@ const FACULTY = [
     image: faculty1,
     name: "Dr Arumita Pawa",
     designation: "MA English Literature | B.Com | NLP Practitioner | TESOL & TEFL London Business School | Certified Soft Skill Trainer",
-    experience: "12+ years",
-    qualifications: "MBA, IIM Alumnus",
-    expertise: ["Soft Skills","English Literature" ,"Strategy"],
+    experience: "18+ years",
+    students:"10,000+",
+    expertise: ["VARC","Communication" ,"Mindset training"],
     blurb: "Dr. Arumita Pawa is a dynamic academician and trainer with a distinguished career spanning over two decades in education and leadership. Formerly the Head of the Department of Commerce and Management, as well as the Junior College at Raisoni College, she has been instrumental in shaping the academic and professional journeys of countless students."
   },
   {
     image: faculty2,
     name: "Prof. Krish Vyas",
     designation: "BE | MBA | Master Mentor Specialized in Quantitative Aptitude (QA) & Data Interpretation & Logical Reasoning (DILR)",
-    experience: "10+ years",
-    qualifications: "MA English, PGDM",
+    experience: "5+ years",
+    students:"5,000+",
     expertise: ["Quantitative Ability", "DI-LR", "Strategy"],
     blurb: "An engineer and an MBA, Krish combines the analytical laser-like focus and business sense in a unique package for the competitive exam preparation arena. Having spent years of direct teaching and mentoring experience, he has emerged as the go-to guide for thousands of aspirants pursuing dreams through examinations such as CAT, CLAT, and many other entrance exams. Masters in Quants & LRDI."
   }

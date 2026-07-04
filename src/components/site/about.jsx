@@ -6,12 +6,12 @@ const POINTS = [
   { 
     icon: Target, 
     title: "Our Mission", 
-    text: "Make world-class exam prep accessible and turn every aspirant's potential into a top-ranked admit." 
+    text: "We’re here to support every MBA, BBA, MCA, and NLU dream with the right guidance, honest mentorship, and smart preparation. From your first step to the final exam, we walk with you—helping you grow, stay confident, and achieve the college you’ve set your heart on." 
   },
   { 
     icon: Eye, 
     title: "Our Vision", 
-    text: "To be India's most trusted result-oriented coaching brand for MBA, law and aptitude exams." 
+    text: "To become the most trusted and result-driven institute that empowers students to secure admissions into top B-schools, MCA programs, and National Law Universities through excellence in teaching, mentorship, and innovation." 
   }
 ];
 
@@ -35,7 +35,7 @@ function About() {
           
           
           <p className="mt-3.5 text-sm leading-relaxed text-muted-foreground">
-            For over a decade, KAT Expert has guided thousands of students from Nagpur and across India into the country's most prestigious institutes. We combine concept-first teaching, relentless mentorship and data-driven mock analysis to build exam-day champions.
+            For over a decade, faculties of KAT Expert has guided thousands of students from Nagpur and across India into the country's most prestigious institutes. We combine concept-first teaching, relentless mentorship and data-driven mock analysis to build exam-day champions.
           </p>
           
         
@@ -52,14 +52,14 @@ function About() {
           </div>
           
          
-          <div className="mt-5 flex flex-wrap gap-5">
+          {/* <div className="mt-5 flex flex-wrap gap-5">
             <span className="flex items-center gap-1.5 text-xs font-semibold text-navy">
               <Award className="h-4 w-4 text-accent" /> 12+ years of excellence
             </span>
             <span className="flex items-center gap-1.5 text-xs font-semibold text-navy">
               <Users className="h-4 w-4 text-accent" /> 5000+ success stories
             </span>
-          </div>
+          </div> */}
 
           <div className="mt-6">
             <a 
@@ -87,10 +87,10 @@ function About() {
             />
             
            
-            <div className="absolute -bottom-4 -left-4 rounded-xl bg-card p-3 shadow-card border border-border/40">
+            {/* <div className="absolute -bottom-4 -left-4 rounded-xl bg-card p-3 shadow-card border border-border/40">
               <div className="font-display text-xl font-extrabold text-navy">96%</div>
               <div className="text-[10px] text-muted-foreground font-medium">Placement success</div>
-            </div>
+            </div> */}
           </div>
         </Reveal>
 

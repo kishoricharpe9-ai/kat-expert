@@ -196,7 +196,7 @@ export function Hero() {
               className="absolute -right-4 -top-4"
               delay={0.2}
               icon={<Trophy className="h-4 w-4 text-accent" />}
-              title="AIR 1 — MBA CET"
+              title="AIR 1 -  100%ile  — MBA CET"
               sub="Naman Agrawal"
             />
 
@@ -208,13 +208,13 @@ export function Hero() {
               sub="Vinay Khanija"
             />
 
-            <FloatingCard
+            {/* <FloatingCard
               className="absolute right-4 -bottom-2"
               delay={0.6}
               icon={<TrendingUp className="h-4 w-4 text-accent" />}
               title="850+ MBA Converts"
               sub="Across 2025–2026"
-            />
+            /> */}
           </div>
 
         </div>
