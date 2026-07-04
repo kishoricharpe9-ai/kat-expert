@@ -23,7 +23,7 @@ export function Toppers() {
         <Reveal>
           <SectionHeading
             light
-            eyebrow="Hall of Fame"
+            eyebrow="Wall of Fame"
             title={
               <>
                 Our <span className="text-gradient-accent">toppers</span> speak for us

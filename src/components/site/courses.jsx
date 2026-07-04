@@ -5,7 +5,7 @@ import { COURSES } from "@/lib/site-data";
 import { Reveal, SectionHeading } from "./section";
 import { Button } from "@/components/ui/button";
 
-const FILTERS = ["All", "MBA", "Law", "UG", "Skills"];
+const FILTERS = ["All", "MBA", "Law", "UG","PG", "Skills"];
 
 export function Courses() {
   const [filter, setFilter] = useState("All");

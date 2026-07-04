@@ -13,9 +13,9 @@ export function Faculty() {
         <h2 className="text-2xl sm:text-3xl font-extrabold font-display tracking-tight text-navy">
           Learn from <span className="text-accent">the best</span>
         </h2>
-        <p className="mt-3 text-sm sm:text-base text-muted-foreground max-w-xl">
+        {/* <p className="mt-3 text-sm sm:text-base text-muted-foreground max-w-xl">
           IIM and NLU alumni who have personally mentored thousands of top-rankers.
-        </p>
+        </p> */}
       </div>
 
       {/* Faculty Cards Container */}
@@ -95,11 +95,11 @@ export function Faculty() {
         ))}
       </div>
 
-      <div className="flex justify-center mt-10 w-full">
+      {/* <div className="flex justify-center mt-10 w-full">
         <a href="#contact" className="inline-flex items-center justify-center gap-1.5 px-4 py-2 text-xs font-bold uppercase tracking-wider rounded-lg bg-accent text-white shadow-sm hover:bg-accent/90 active:scale-95 transition-all group/btn">
           See all faculties <ArrowRight className="h-3.5 w-3.5 transition-transform group-hover/btn:translate-x-1" />
         </a>
-      </div>
+      </div> */}
     </section>
   );
 }

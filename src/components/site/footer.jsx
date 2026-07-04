@@ -31,7 +31,7 @@ function Footer() {
           <Logo light={true} />
         
           <p className="mt-3.5 max-w-xs text-xs leading-relaxed text-white/60">
-            KATexpert is a leading institute for competitive exam preparation, offering expert coaching for CAT, IPMAT, MBA CET, MCA CET, and CRT. With experienced faculty, personalized guidance, and a proven track record of success, we are committed to helping students achieve their academic and career goals.
+            KATexpert is a leading institute for competitive exam preparation, offering expert coaching for CAT, CLAT, IPMAT, MBA CET, MCA CET, and CRT. With experienced faculty, personalized guidance, and a proven track record of success, we are committed to helping students achieve their academic and career goals.
           </p>
           <div className="mt-4 flex gap-1.5">
             {[Facebook, Instagram, Youtube].map((Icon, i) => (

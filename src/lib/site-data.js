@@ -20,6 +20,29 @@ import p12 from "@/assets/surabhi-jaiswal.jpg";
 import p13 from "@/assets/vansh-katekhaye.jpg";
 import p14 from "@/assets/vedant-kohat.jpg";
 import p15 from "@/assets/vinay-khanija.jpg";
+import p16 from "@/assets/janhavi-pawa.png";
+import p17 from "@/assets/kiran-kumar.png";
+import p18 from "@/assets/chitwan-ag.png";
+import p19 from "@/assets/nikita-ag.png";
+import p20 from "@/assets/hiten-kha.png";
+import p21 from "@/assets/meet-patel.png";
+// import p22 from "@/assets/vinay-khanija.jpg";
+import p23 from "@/assets/amisha-shuk.png";
+import p24 from "@/assets/arya-dha.png";
+import p25 from "@/assets/atharva-pandh.png";
+import p26 from "@/assets/ifra.png";
+import p27 from "@/assets/isha.png";
+import p28 from "@/assets/kunjal-sug.png";
+import p29 from "@/assets/kushi-yadav.png";
+import p30 from "@/assets/maheshwari.png";
+import p31 from "@/assets/naman-ag2.png";
+import p32 from "@/assets/nandini-tri.png";
+import p33 from "@/assets/pawan-chandi.png";
+import p34 from "@/assets/rimjhim-s.png";
+import p35 from "@/assets/rudra.png";
+import p36 from "@/assets/saniya-son.png";
+import p37 from "@/assets/vidhi.png";
+
 
 
 const BRAND = {
@@ -88,7 +111,7 @@ const COURSES = [
   {
     id: "mca-cet",
     title: "MCA CET",
-    category: "UG",
+    category: "PG",
     icon: Building2,
     description: "MAH MCA CET coaching covering aptitude, computer concepts and programming logic.",
     duration: "6 Months",
@@ -151,7 +174,7 @@ const FACULTY = [
     designation: "BE | MBA | Master Mentor Specialized in Quantitative Aptitude (QA) & Data Interpretation & Logical Reasoning (DILR)",
     experience: "5+ years",
     students:"5,000+",
-    expertise: ["Quantitative Ability", "DI-LR", "Strategy"],
+    expertise: ["Quantitative Ability", "DI-LR"],
     blurb: "An engineer and an MBA, Krish combines the analytical laser-like focus and business sense in a unique package for the competitive exam preparation arena. Having spent years of direct teaching and mentoring experience, he has emerged as the go-to guide for thousands of aspirants pursuing dreams through examinations such as CAT, CLAT, and many other entrance exams. Masters in Quants & LRDI."
   }
 ];
@@ -165,7 +188,7 @@ const TOPPERS = [
   { image: p4, name: "Kasak Ahuja", exam: "MBA CET", score: "93.13%ile", college: "SIMSREE Mumbai", year: 2026 },
   { image: p11, name: "Shimant Bijwe", exam: "MBA CET", score: "91.85%ile", college: "JBIMS Mumbai", year: 2026},
   { image: p10, name: "Saniya Kamble", exam: "MBA CET", score: "91.58%ile", college: "IIM Ahmedabad", year: 2026 },
-  { image: "", name: "Janhavi Pawaday", exam: "MBA CET", score: "88.36%ile", college: "IIM Bangalore", year: 2026 },
+  { image: p16, name: "Janhavi Pawaday", exam: "MBA CET", score: "88.36%ile", college: "IIM Bangalore", year: 2026 },
   { image: p14, name: "Vedant Kohat", exam: "MBA CET", score: "87.71%ile", college: "NLSIU Bangalore", year: 2026 },
   { image: p5, name: "Kasak Wadhwani", exam: "MBA CET", score: "87.12%ile", college: "IIM Indore", year: 2026 },
   { image: p2, name: "Chitwan Agrawal", exam: "MBA CET", score: "86.95%ile", college: "SIMSREE Mumbai", year: 2026 },
@@ -173,11 +196,12 @@ const TOPPERS = [
   { image: p9, name: "Rupali Kale", exam: "MCA CET", score: "97.70%ile", college: "IIM Ahmedabad", year: 2026, hasCrown: true },
   { image: p1, name: "Arpit Khadatkar", exam: "MCA CET", score: "95.93%ile", college: "IIM Bangalore", year: 2026 },
   { image: p13, name: "Vansh Katekhaye", exam: "MCA CET", score: "87.93%ile", college: "IIM Indore", year: 2026 },
-  { image: "", name: "Kiran Kumar Rajurkar", exam: "CAT", score: "80.30%ile", college: "SIMSREE Mumbai", year: 2025 },
-  { image: "", name: "Nikita Agrawal", exam: "DILR", score: "88.71%ile", college: "JBIMS Mumbai", year: 2025 },
-  { image: "", name: "Meet Patel", exam: "CAT", score: "87.97%ile", college: "IIM Ahmedabad", year: 2025 },
-  { image: "", name: "Hiten Khatod", exam: "CAT", score: "89.90%ile", college: "IIM Bangalore", year: 2025 },
-  { image: "", name: "Naman Agrawal", exam: "DILR", score: "98.81%ile", college: "NLSIU Bangalore", year: 2025 }
+  { image: p17, name: "Kiran Kumar Rajurkar", exam: "CAT", score: "80.30%ile", college: "SIMSREE Mumbai", year: 2025 },
+  { image: p19, name: "Nikita Agrawal", exam: "DILR", score: "88.71%ile", college: "JBIMS Mumbai", year: 2025 },
+  { image: p18, name: "Chitvan Agrawal", exam: "DILR", score: "93.98%ile", college: "JBIMS Mumbai", year: 2025 },
+  { image: p21, name: "Meet Patel", exam: "CAT", score: "87.97%ile", college: "IIM Ahmedabad", year: 2025 },
+  { image: p20, name: "Hiten Khatod", exam: "CAT", score: "89.90%ile", college: "IIM Bangalore", year: 2025 },
+  { image: p31, name: "Naman Agrawal", exam: "DILR", score: "98.81%ile", college: "NLSIU Bangalore", year: 2025 }
 ];
 
 const TESTIMONIALS = [
@@ -194,7 +218,7 @@ const TESTIMONIALS = [
     text: "The interactive classes at KATexpert genuinely made learning enjoyable and kept me highly engaged throughout. The clear directions and strategic curriculum provided by the mentors were exactly what I needed to successfully achieve my goal."
   },
   {
-    
+     image:p16,
     name: "Janhavi Pawaday",
     rating: 5,
     text: "Even though I joined KATexpert later than most students, the teachers went out of their way to help me cover the syllabus. Their structured worksheets helped me improve quickly, scoring an 88% with constant support."
@@ -202,37 +226,37 @@ const TESTIMONIALS = [
 
 
    {
-    
+     image:p32,
     name: "Nandini Trivedi",
     rating: 5,
     text: "Learning from Arumita Ma'am has been a truly enriching experience. Her passion, patience, and ability to simplify complex concepts inspired me to think deeply, express creatively, and grow continuously. I will always cherish our bond, built on respect, trust, and a shared love for learning."
   },
    {
-    
+     image:p23,
     name: "Amisha Shukla",
     rating: 5,
     text: "Arumita Ma'am's wisdom, warmth, and kindness make every class inspiring. She teaches with patience, encourages curiosity, and helps students grow with confidence. Her guidance, belief in us, and genuine care leave a lasting impact, making her an unforgettable teacher and mentor."
   },
    {
-    
+     image:p25,
     name: "Atharva Pandhbudhe",
     rating: 5,
     text: "I feel fortunate to have learned from Krish Sir. His passion, dedication, and genuine care made learning enjoyable and meaningful. Beyond academics, he taught valuable life lessons, inspired us, believed in our potential, and became the best teacher I have ever had."
   },
    {
-    
+     image:p36,
     name: "Saniya Raghunath Sondarkar",
     rating: 5,
     text: "Krish Sir's teaching combines clarity, passion, and real-life examples, making complex concepts easy to understand. His patience, encouragement, and positivity inspire confidence, curiosity, and personal growth. Every class motivates me to aim higher, making him an exceptional teacher who leaves a lasting impression."
   },
    {
-    
+     image:p28,
     name: "Kunjal Sugandh",
     rating: 5,
     text: "Arumita Ma'am's engaging teaching, personal attention, and genuine care made learning enjoyable and inspiring. She simplified complex concepts, encouraged confidence, and supported my growth beyond academics. Her guidance, warmth, and belief in my potential have left a lasting impact on my learning journey."
   },
    {
-    
+     image:p29,
     name: "Khushi Yadav",
     rating: 5,
     text: "Krish Sir's exceptional teaching style made every concept clear and easy to understand. His guidance, care, and mentorship felt like that of an elder brother, inspiring confidence and gratitude. I feel fortunate to have learned from such an incredible teacher and mentor."
@@ -240,50 +264,50 @@ const TESTIMONIALS = [
 
   
    {
-    
+     image:p30,
     name: "Maheshwari Urkude",
     rating: 5,
     text: "I feel grateful to have learned from Krish Sir. His passion, dedication, and ability to simplify complex topics made learning inspiring and engaging. Beyond teaching, he built confidence, encouraged growth, and instilled a lifelong love for learning, leaving a lasting impact on my life."
    },
    {
-    
+     image:p37,
     name: "Vidhi Agrawal",
     rating: 5,
     text: "Krish Sir is more than a teacher—he is a mentor and guiding light. His kindness, patience, and passion make learning enjoyable while simplifying complex concepts. His guidance has shaped both my academic and personal growth, leaving me with lifelong lessons and unforgettable inspiration."
   },
    {
-    
+     image:p35,
     name: "Rudra Amol Kshirsagar",
     rating: 5,
     text: "Even though I joined KATexpert later than most students, the teachers went out of their way to help me cover the syllabus. Their structured worksheets helped me improve quickly, scoring an 88% with constant support."
   },
    {
-    
+     image:p26,
     name: "Ifra Khan",
     rating: 5,
     text: "Even though I joined KATexpert later than most students, the teachers went out of their way to help me cover the syllabus. Their structured worksheets helped me improve quickly, scoring an 88% with constant support."
   },
    {
-    
+     image:p27,
     name: "Isha Dhatrak",
     rating: 5,
     text: "Even though I joined KATexpert later than most students, the teachers went out of their way to help me cover the syllabus. Their structured worksheets helped me improve quickly, scoring an 88% with constant support."
   },
 
    {
-    
+     image:p24,
     name: "Arya Dhakate",
     rating: 5,
     text: "Even though I joined KATexpert later than most students, the teachers went out of their way to help me cover the syllabus. Their structured worksheets helped me improve quickly, scoring an 88% with constant support."
   },
    {
-    
+     image:p33,
     name: "Pawan Chandiramani",
     rating: 5,
     text: "Even though I joined KATexpert later than most students, the teachers went out of their way to help me cover the syllabus. Their structured worksheets helped me improve quickly, scoring an 88% with constant support."
   },
    {
-    
+     image:p34,
     name: "Rimjhim Singh",
     rating: 5,
     text: "Even though I joined KATexpert later than most students, the teachers went out of their way to help me cover the syllabus. Their structured worksheets helped me improve quickly, scoring an 88% with constant support."
@@ -294,19 +318,19 @@ const TESTIMONIALS = [
 const FAQS = [
   {
     question: "What are the benefits of joining KATexpert?",
-    answer: "Detailed information about expert faculty, structured curriculum, and high-quality study materials can be found on {Link: KATexpert https://katexpert.com}."
+    answer: "Joining KATexpert provides expert faculty, a structured curriculum, personalized attention, and high-quality study materials. Students benefit from regular assessments, flexible learning options, and dedicated doubt resolution. Additionally, the competitive environment and career guidance help ensure effective preparation and success in IIM entrance exams."
   },
   {
     question: "How can I enroll in a course?",
-    answer: "Information regarding the registration form and contacting the admissions team is available at {Link: KATexpert https://katexpert.com}."
+    answer: "You can enroll by visiting our website and filling out the registration form. Alternatively, you can contact our admissions team via phone or email for assistance with the enrollment process."
   },
   {
     question: "What is the fee structure?",
-    answer: "Fee structures, which vary based on course, are provided upon contacting the team as detailed at {Link: KATexpert https://katexpert.com}."
+    answer: "Our fee structure varies based on the course and duration. Detailed fee information can be obtained by contacting our admissions team at +91 9552388015, +9199757 17636.."
   },
   {
     question: "Do you offer online mocks?",
-    answer: "Details regarding online mock test series for exam simulation can be found on {Link: KATexpert https://katexpert.com}."
+    answer: "Yes, we offer online mock  for various courses to help students assess their preparation. These mock tests are designed to simulate real exam conditions and can be accessed from anywhere."
   }
 ];
 
