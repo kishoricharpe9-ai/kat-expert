@@ -125,13 +125,13 @@ export function Hero() {
               <a href="#courses">Explore Courses</a>
             </Button>
           </div>
-
-          {/* Stats */}
-          <div className="mt-8 grid max-w-md grid-cols-3 gap-4 border-t border-slate-200 pt-5">
+{/* 
+          Stats */}
+          {/* <div className="mt-8 grid max-w-md grid-cols-3 gap-4 border-t border-slate-200 pt-5">
             <HeroStat value={5000} suffix="+" label="Students Trained" />
             <HeroStat value={120} suffix="+" label="99%ilers" />
             <HeroStat value={96} suffix="%" label="Success Rate" />
-          </div>
+          </div> */}
         </motion.div>
 
    

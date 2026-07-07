@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
-import { Trophy, GraduationCap, ChevronLeft, ChevronRight, User, Crown } from "lucide-react"; 
+import { Trophy, ChevronLeft, ChevronRight, User, Crown } from "lucide-react";
 import { TOPPERS } from "@/lib/site-data";
 import { Reveal, SectionHeading } from "./section";
 
@@ -62,13 +62,11 @@ export function Toppers() {
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: -30 }}
               transition={{ duration: 0.35 }}
-              // {/* Increased layout column gaps from gap-3.5 to gap-4 to widen card distribution safely */}
               className="grid gap-4 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 justify-center"
             >
               {visible.map((t) => (
                 <article
                   key={t.name}
-                  // {/* Subtle padding increase from p-3.5 to p-4 expands overall visual card footprint */}
                   className="group relative overflow-hidden rounded-xl glass p-4 text-white shadow-card flex flex-col justify-between h-full w-full mx-auto transition-all duration-300 hover:-translate-y-1"
                 >
                   <div>
@@ -82,10 +80,9 @@ export function Toppers() {
                           </div>
                         )}
 
-                        {/* Slightly Rounded Square Image Container - Upscaled from h-16 to h-18 */}
+                        {/* Slightly Rounded Square Image Container */}
                         <div className="relative h-18 w-18 rounded-lg bg-white/10 border border-white/5 overflow-hidden grid place-items-center">
                           <User className="absolute h-5 w-5 text-white/30 strokeWidth={1.4}" />
-
                           {t.image && (
                             <img
                               src={t.image}
@@ -93,7 +90,7 @@ export function Toppers() {
                               className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
                               loading="lazy"
                               onError={(e) => {
-                                e.target.style.display = 'none';
+                                e.target.style.display = "none";
                               }}
                             />
                           )}
@@ -102,17 +99,18 @@ export function Toppers() {
 
                       {/* Exam Tag Badge */}
                       <span className="inline-flex items-center gap-0.5 rounded-full bg-accent px-2 py-0.5 text-[8px] font-bold uppercase text-accent-foreground whitespace-nowrap shadow-sm">
-                        <Trophy className="h-2 w-2" /> {t.exam}
+                        <Trophy className="h-2 w-2" />
+                        {t.exam}
                       </span>
                     </div>
 
-                    {/* Topper Score / Percentile */}
-                    <div className="mt-3 font-display text-xl font-extrabold text-gradient-accent leading-none">
-                      {t.score}
-                    </div>
+                    {/* Topper Name (Moved Up) */}
+                    <h3 className="mt-3 text-sm font-bold line-clamp-1">{t.name}</h3>
 
-                    {/* Topper Name - Shifted slightly up from text-xs to text-sm */}
-                    <h3 className="mt-2 text-sm font-bold line-clamp-1">{t.name}</h3>
+                    {/* Metric Display (Moved Below Name with Score CSS applied) */}
+                    <div className="mt-1 font-display text-xl font-extrabold text-gradient-accent leading-none line-clamp-1">
+                      {t.score || t.college || t.education}
+                    </div>
                   </div>
 
                   {/* Year Batch Metric */}
